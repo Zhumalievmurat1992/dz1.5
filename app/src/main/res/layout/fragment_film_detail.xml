@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="12dp"
+    tools:context="kg.geektech.ui.films.FilmDetailFragment">
+
+   <ImageView
+       android:id="@+id/tv_image"
+       android:layout_width="match_parent"
+       android:layout_height="300dp"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <TextView
+    android:id="@+id/tv_orig"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:textColor="@color/purple_500"
+    tools:text="OriginalTitle"
+    android:textSize="18sp"
+    android:layout_marginTop="10dp"
+    />
+    <TextView
+        android:id="@+id/tv_director"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Director"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/tv_producer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Producer"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="release_data"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>
